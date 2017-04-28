@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: keiran
- * Date: 28/04/2017
- * Time: 21:29
- */
 
 namespace tests;
 
