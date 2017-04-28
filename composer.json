@@ -1,5 +1,15 @@
 {
     "require-dev": {
         "phpunit/phpunit": "^6.1"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+
+    "scripts": {
+        "test": "vendor/bin/phpunit --testsuite katas"
     }
 }
