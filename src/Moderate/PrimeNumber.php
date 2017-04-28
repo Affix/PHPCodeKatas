@@ -11,6 +11,15 @@ class PrimeNumber
 {
     public function validate($number)
     {
-        throw new \Exception("Must Impliment Function");
+        $prime = true;
+        for($i = ($number - 1); $i > 1; $i--)
+        {
+            if($number % $i == 0)
+            {
+                $prime = false;
+                break;
+            }
+        }
+        return $prime;
     }
 }

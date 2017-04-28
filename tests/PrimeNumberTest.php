@@ -18,7 +18,7 @@ class PrimeNumberTest extends TestCase
     public function testIsNotAValidPrime()
     {
         $prime = new PrimeNumber();
-        $result = $prime->validate(7603);
+        $result = $prime->validate(7604);
         $this->assertEquals(false, $result);
     }
 }
