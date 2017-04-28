@@ -1,6 +1,6 @@
 <?php
 
-namespace tests;
+namespace Tests;
 
 use Moderate\FizzBuzz;
 use PHPUnit\Framework\TestCase;
